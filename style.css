@@ -1,0 +1,35 @@
+/* page */
+
+body {
+  background-color: #f6f6f6;
+  color: #222;
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* input */
+
+.prompt-icon {
+  font-weight: bold;
+  padding: .5em .6em;
+  padding-left: 0;
+}
+
+.input-form input {
+  background-color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: .5em .6em;
+}
+
+.input-form input:focus {
+  border-color: #129FEA;
+  outline: 0;
+}
